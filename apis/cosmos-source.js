@@ -171,7 +171,7 @@ export default class CosmosAPI {
       Promise.all([
         this.query(`staking/validators?status=BOND_STATUS_UNBONDED`),
         this.query(`staking/validators?status=BOND_STATUS_BONDED`),
-        this.query(`staking/validators?status=unbonded`),
+        this.query(`staking/validators?status=BOND_STATUS_UNBONDED`),
       ]).then((validatorGroups) => [].concat(...validatorGroups)),
       this.getAnnualProvision().catch(() => undefined),
       this.getValidatorSet(height),
