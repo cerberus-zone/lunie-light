@@ -5,8 +5,8 @@ export default {
     'Cerberus is the first three-headed meme-coin coin to run in the Cosmos ecosystem',
   logo: `logo.png`,
   website: 'https://cerberus.zone',
-  apiURL: 'http://54.160.205.194:1317', // use `npx lcp --proxyUrl http://54.160.205.194:1317`
-  rpcURL: 'ws://54.160.205.194:26657',
+  apiURL: 'https://api.cerberus.zone:1317', // use `npx lcp --proxyUrl http://54.160.205.194:1317`
+  rpcURL: 'ws://rpc.cerberus.zone:26657',
   stakingDenom: 'CRBRUS',
   coinLookup: [
     {
