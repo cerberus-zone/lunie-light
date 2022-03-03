@@ -5,7 +5,7 @@
   for = "/*"
   [headers.values]
     Content-Security-Policy = '''
-      default-src 'self' https://*.netlify.app;
+      default-src 'self' https://*.netlify.app https://*.cerberus.zone;
       connect-src 'self' data: https://keybase.io https://lcd.nylira.net https://api.cerberus.zone https://rpc.cerberus.zone;
       img-src 'self' data: https://*.netlify.app https://s3.amazonaws.com;
       script-src 'self' 'unsafe-eval' https://*.netlify.app;
