@@ -15,9 +15,8 @@
     </div>
     <div class="disclaimer">
       <p>
-        Use this software at your own risk. Never enter your seed phrase into
-        untrusted software. Beware of phishing scams and spoof sites. Have a
-        nice day <span>✌️</span>
+        Never enter your seed phrase into untrusted software. Beware of phishing
+        scams and spoof sites. Have a nice day <span>✌️</span>
       </p>
     </div>
   </div>

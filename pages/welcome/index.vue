@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Welcome 👋</h1>
+    <h1>Welcome</h1>
     <h2>{{ network.description }}</h2>
     <div class="session-list">
       <LiSession

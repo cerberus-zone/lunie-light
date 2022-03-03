@@ -5,8 +5,8 @@ export default {
     'Cerberus is the first three-headed meme-coin coin to run in the Cosmos ecosystem',
   logo: `logo.png`,
   website: 'https://cerberus.zone',
-  apiURL: 'http://localhost:8010/proxy', // use `npx lcp --proxyUrl http://34.123.30.100:1317`
-  rpcURL: 'ws://34.123.30.100:26657',
+  apiURL: 'http://54.160.205.194:1317', // use `npx lcp --proxyUrl http://54.160.205.194:1317`
+  rpcURL: 'ws://54.160.205.194:26657',
   stakingDenom: 'CRBRUS',
   coinLookup: [
     {
@@ -32,7 +32,7 @@ export default {
       ],
     },
   },
-  icon: `https://lunie.fra1.digitaloceanspaces.com/network-icons/cosmos.png`,
+  icon: `currencies/crbrus.png`,
 
   // This is only to be used as a developer tool and for testing purposes
   // NEVER ENABLE LOCALSIGNING IN PRODUCTION OR FOR MAINNETS
